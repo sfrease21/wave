@@ -223,7 +223,7 @@ section {
 /* HEADER */
 
 #header {
-	background: url(../images/fishhh.gif) no-repeat center center;
+	background: url(../images/fishhh.gif) ;
 	background-size: cover;
 	height: 100vh;
 	padding: 0px;
@@ -297,6 +297,10 @@ section {
 
 /* Small devices (tablets, 768px and less) */
 @media (max-width: 768px) { 
+	img {
+	  width: 100%;
+	
+    }
 
 	body {
 		font-size: 14px;
@@ -307,6 +311,9 @@ section {
 		line-height: 58px;
 		animation: 3rem;
 	}
+
+	.header
+
 
 	h2 {
 		font-size: 24px;
@@ -321,6 +328,9 @@ section {
 	h4 {
 		font-size: 16px;
 		line-height: 26px;
+		width: 45px;
+		
+		margin:auto;
 	}
 
 	h5 {
